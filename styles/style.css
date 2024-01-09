@@ -1,0 +1,20 @@
+img {
+    max-width: 130px;
+}
+
+.exhibition-carousel {
+    display: flex;
+    flex-flow: row-wrap;
+
+}
+
+.exhibition-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 230px;
+}
+
+.works-carousel {
+    display: flex;
+    flex-flow: row-wrap;
+}
