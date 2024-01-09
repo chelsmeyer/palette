@@ -1,3 +1,7 @@
+body {
+    margin: 18px;
+}
+
 img {
     max-width: 130px;
 }
@@ -16,5 +20,5 @@ img {
 
 .works-carousel {
     display: flex;
-    flex-flow: row-wrap;
+    flex-wrap: wrap;
 }
