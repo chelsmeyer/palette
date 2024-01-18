@@ -1,24 +1,227 @@
+html,
 body {
-    margin: 18px;
+    margin: 0;
+    padding: 0px;
 }
 
-img {
-    max-width: 130px;
+h1 {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    margin-left: 18px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: "Playfair Display";
+    font-size: 24px;
+    margin-left: 18px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+h4 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #979797;
+    padding: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+h5 {
+    font-family: "Playfair Display";
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.statusbar {
+    width: 393px;
+}
+
+.header a {
+    color: #979797;
+    font-size: 40px;
+}
+
+.logo {
+    height: 75px;
+    width: 125px;
+    margin-left: 18px;
+    margin-right: 195px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+p a {
+    color: #1F5C00;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    margin-left: 38px;
+}
+
+p a:hover {
+    color: #1F5C00;
+    font-weight: bold;
+}
+
+.workimage {
+    height: 245px;
+    width: 169px;
+    background-size: cover;
+    background-position: center;
+}
+
+.maninsunglasses {
+    background-image: url("../images/the-cleveland-museum-of-art-Z5GXrdWlXrQ-unsplash.jpg");
+}
+
+.blueoil {
+    background-image: url("../images/pawel-czerwinski--ONOvC_0IRo-unsplash.jpg");
+}
+
+.sunlines {
+    background-image: url("../images/jene-stephaniuk-esRJtEsvJhU-unsplash.jpg");
+}
+
+.seaside {
+    background-image: url("../images/pawel-czerwinski-g2Zf3hJyYAc-unsplash.jpg");
+}
+
+.yellowoil {
+    background-image: url("../images/pawel-czerwinski-EdULlCRj-x0-unsplash.jpg");
+}
+
+.blueyellow {
+    background-image: url("../images/clark-van-der-beken-zKnQnyARggY-unsplash.jpg");
+}
+
+.rainbow {
+    background-image: url("../images/steve-johnson-e5LdlAMpkEw-unsplash.jpg");
+}
+
+.flag {
+    height: 40px;
+    width: 40px;
+    background-color: #1F5C00;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 123.3px;
+    margin-top: 195px;
+}
+
+.flag span {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    font-size: 24px;
+    color: #bfbaba;
 }
 
 .exhibition-carousel {
-    display: flex;
-    flex-flow: row-wrap;
-
+    display: grid;
+    grid-template-columns: 130px 130px;
+    gap: 47px;
+    padding-left: 43px;
+    padding-right: 43px;
+    justify-content: start;
 }
 
 .exhibition-card {
-    display: flex;
-    flex-direction: column;
-    max-width: 230px;
+    text-align: center;
+}
+
+.exhibition-card img {
+    height: 188px;
+    width: 130px;
 }
 
 .works-carousel {
+    display: grid;
+    grid-template-columns: 169px 169px;
+    grid-column-gap: 21px;
+    justify-content: start;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.work-card img {
+    height: 245px;
+    width: 169px;
+}
+
+button {
+    background-color: #1F5C00;
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    border-top: 1px solid #DEDDDD;
+    width: 393px;
+    padding-left: 0;
+    padding-top: 5px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    width: 80px;
+    padding: 8px;
+    background-color: ##FFFFFF;
+    text-align: center;
+}
+
+.navbar a {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    text-decoration: none;
+    color: #0D0D0D;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #1F5C00;
+}
+
+.navbar a span {
+    margin: 18px;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.CSV {
+    margin-left: 129px;
+}
+
+.Artlogic {
+    margin-left: 120px;
+}
+
+.Import {
+    margin-left: 132px;
 }

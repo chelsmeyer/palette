@@ -6,72 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-    <h1>
-        Lea Bernard
-    </h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <img class="statusbar" src="./images/statusbar.webp" alt="" />
+
+    <div class="header">
+        <img class="logo" src="./images/Logo_Horizontal_BlackGreen.png" alt="" />
+        <a href="#"><span class="fa-solid fa-gear" aria-hidden="true"></span></a>
+    </div>
+
+    <h1> Lea Bernard </h1>
     <p><a href="index.html">
-            << back to all artists</a>
-    </p>
-    <p><a href="index.html">
-            read profile>></a>
+            &lt; &lt; back to all artists </a> &nbsp; &nbsp; <a href="index.html">
+            artist bio &gt; &gt;</a>
     </p>
     <h2>Upcoming Exhibitions</h2>
     <div class="exhibition-carousel">
         <div class="exhibition-card">
-            <img class="insert-class-idk-how-to-set-all-these-fuckers-up"
-                src="./images/pawel-czerwinski--ONOvC_0IRo-unsplash.jpg">
-            <h2>Oil Puddles</h2>
+            <img src="./images/pawel-czerwinski--ONOvC_0IRo-unsplash.jpg" alt="" />
+            <h5>Oil Puddles</h5>
             <h4>Janury 26, 2024</h4>
             <button>View</button>
         </div>
         <div class="exhibition-card">
-            <img class="insert-class-idk-how-to-set-all-these-fuckers-up"
-                src="./images/jene-stephaniuk-esRJtEsvJhU-unsplash.jpg">
-            <h2>Oil Puddles</h2>
+            <img src="./images/jene-stephaniuk-esRJtEsvJhU-unsplash.jpg" alt="" />
+            <h5>Sunlight</h5>
             <h4>Janury 26, 2024</h4>
             <button>View</button>
         </div>
     </div>
-    </div>
     <h2>Works</h2>
     <div class="works-carousel">
         <div class="work-card">
-            <img class="insert-class-idk-how-to-set-all-these-fuckers-up"
-                src="./images/jene-stephaniuk-esRJtEsvJhU-unsplash.jpg">
-            <!--No idea how to add a tag on top of this, like I think you can use the background image thing on it if you turn this element into a div with a class (then put background image in the class????)-->
-            <h2>Sun Lines</h2>
-            <button>View</button>
+            <div class="workimage sunlines"><span class="flag"><span class="fa-solid fa-check"></span></span></div>
+            <h3>Sun Lines</h3>
         </div>
         <div class="work-card">
-            <img class="insert-class-idk-how-to-set-all-these-fuckers-up"
-                src="./images/jene-stephaniuk-esRJtEsvJhU-unsplash.jpg">
-            <!--No idea how to add a tag on top of this, like I think you can use the background image thing on it if you turn this element into a div with a class (then put background image in the class????)-->
-            <h2>Sun Lines</h2>
-            <button>View</button>
+            <div class="workimage seaside"><span class="flag"><span class="fa-solid fa-check"></span></span></div>
+            <h3>Seaside</h3>
         </div>
         <div class="work-card">
-            <img class="insert-class-idk-how-to-set-all-these-fuckers-up"
-                src="./images/jene-stephaniuk-esRJtEsvJhU-unsplash.jpg">
-            <!--No idea how to add a tag on top of this, like I think you can use the background image thing on it if you turn this element into a div with a class (then put background image in the class????)-->
-            <h2>Sun Lines</h2>
-            <button>View</button>
+            <div class="workimage maninsunglasses"><span class="flag"><span class="fa-solid fa-check"></span></span>
+            </div>
+            <h3>Man in Sunglasses WIP</h3>
         </div>
         <div class="work-card">
-            <img class="insert-class-idk-how-to-set-all-these-fuckers-up"
-                src="./images/jene-stephaniuk-esRJtEsvJhU-unsplash.jpg">
-            <!--No idea how to add a tag on top of this, like I think you can use the background image thing on it if you turn this element into a div with a class (then put background image in the class????)-->
-            <h2>Sun Lines</h2>
-            <button>View</button>
+            <div class="workimage blueoil"><span class="flag"><span class="fa-solid fa-check"></span></span></div>
+            <h3>Blue Oil</h3>
+        </div>
+        <div class="work-card">
+            <div class="workimage yellowoil"><span class="flag"><span class="fa-solid fa-check"></span></span></div>
+            <h3>Yellow Oil</h3>
+        </div>
+        <div class="work-card">
+            <div class="workimage blueyellow"><span class="flag"><span class="fa-solid fa-check"></span></span></div>
+            <h3>Blue and Yellow</h3>
+        </div>
+        <div class="work-card">
+            <div class="workimage rainbow"><span class="flag"><span class="fa-solid fa-check"></span></span></div>
+            <h3>Rainbow Oil</h3>
         </div>
     </div>
     <div class="export-import">
-        <button>Export to CSV</button>
-        <button>Export to ArtLogic</button>
-        <button>Import Works</button>
+        <p class="CSV"> <button>Export to CSV</button> </p>
+        <p class="Artlogic"> <button>Export to ArtLogic</button> </p>
+        <p class="Import"> <button>Import Works</button> </p>
     </div>
+
+    <ul>
+        <div class="navbar">
+            <li><a href="#"><span class="fa-solid fa-paintbrush fa-xl" aria-hidden="true"></span>Artists</a></li>
+            <li><a href="#"><span class="fa-regular fa-calendar fa-xl" aria-hidden="true"></span>Exhibitions</a></li>
+            <li><a href="#"><span class="fa-regular fa-message fa-xl" aria-hidden="true"></span>Messages</a></li>
+            <li><a href="#"><span class="fa-regular fa-bell fa-xl" aria-hidden="true"></span>Notifications</a></li>
+        </div>
+    </ul>
+
 </body>
 
 </html>
